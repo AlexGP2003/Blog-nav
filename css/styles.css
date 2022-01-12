@@ -1,0 +1,218 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+
+/* clases predefinidas */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-75 {
+    width: 75%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-nav {
+    width: 25%;
+    float: left;
+}
+
+.back-white {
+    background-color: white;
+}
+
+
+/* Otras clases */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../img/chris-zhang-hVbKIVjx7pw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#card-1 {
+    background-image: url("../img/jose-g-ortega-castro-HMD_h2eOAdA-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-2 {
+    background-image: url("../img/xps-1gLdTsX3_70-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-3 {
+    background-image: url("../img/isaac-martin-gzR83Cc909Q-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-4 {
+    background-image: url("../img/anna-hunko-X6_VPXIn0E0-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-5 {
+    background-image: url("../img/benaja-germann-LlvkUwwoA7s-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url("../img/hamdhulla-shakeeb-2vDYo-3kZ3A-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url("../img/kristaps-ungurs-xhFBFGEOzAo-unsplash.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.articulo {
+    background-color: gray;
+}
+
+.articulo-2 {
+    background-color: white;
+}
+
+#pre-footer {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.padding-s {
+    padding: 2%;
+}
+
+footer {
+    background-color: gray;
+}
+
+p {
+    margin: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    .column-nav,
+    .column-75 {
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+}
